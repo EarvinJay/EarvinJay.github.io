@@ -1,0 +1,54 @@
+body {
+    background-image: url("./../images/bg.png");
+    background-size:cover    
+}
+
+h2, h1{
+    font-size: 3vw;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+p{
+    font-size: 2vw;
+     font-family: Impact, Charcoal, sans-serif
+}
+
+#app{
+    position: relative;
+}
+
+#vAboutMe:hover { 
+    color: white;
+    cursor: pointer;
+}
+
+#vProjects:hover { 
+    color: white;
+    cursor: pointer;
+}
+
+#vSkills:hover { 
+    color: white;
+    cursor: pointer;
+}
+
+ #vimgheader
+{
+
+}
+
+#vheader
+{
+
+} 
+
+#vcontent
+{
+
+}
+
+#aboutMeImg
+{
+    width: 70%;
+    height: auto;
+}
