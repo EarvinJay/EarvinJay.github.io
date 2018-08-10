@@ -1,6 +1,9 @@
 body {
     background-image: url("./../images/bg.png");
-    background-size:cover    
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 h2, h1{
@@ -9,8 +12,9 @@ h2, h1{
 }
 
 p{
+    line-height: 1.6;
     font-size: 2vw;
-     font-family: Impact, Charcoal, sans-serif
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
 #app{
@@ -49,12 +53,12 @@ p{
 
 #aboutMeImg
 {
-    width: 70%;
+    width: 75vw;
     height: auto;
 }
 
 #projectsImg
 {
-    width: 60%;
+    width: 60vw;
     height: auto;
 }

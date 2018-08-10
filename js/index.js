@@ -9,14 +9,14 @@ Vue.component('vheader', {
 })
 
 Vue.component('vcontent', {
-    template: '<p>Hello there, I am me! Sorry about the design <br/> of my website. I just made this out of boredom :D .  haha <br/>By the way, I\'m gonna tell you a little bit something about myself. <br/>  As you can see my name is on the top,<br/> and I\'m a Software Development Engineer.<br/>My hobbies are playing guitar , playing games and living life :D.<br/>If you want to know more about me,<br/> you must not know more about me  :D </p>',
+    template: '<p>Hello there, I am me! Sorry about the design <br/> of my website. I just made this out of boredom :D .<br/>By the way, I\'m gonna tell you a little bit something about myself. <br/>  As you can see my name is on the top,<br/> and I\'m a Software Development Engineer.<br/>My hobbies are playing guitar , playing games and living life :D.<br/>If you want to know more about me,<br/> you must not know more about me  :D </p>',
 })
 
 var app = new Vue({
     el: '#app',
     data: {
         styleImgHeader: {
-            borderRadius: '50%',
+            borderRadius: '50vw',
             borderStyle: 'groove',
             width: '150',
             height: '180',
@@ -30,8 +30,8 @@ var app = new Vue({
             borderStyle: 'solid'
         },
         styleContent: {
-            marginTop: '14%',
-            marginLeft: '21%',
+            marginTop: '14vw',
+            marginLeft: '20vw',
             position: 'absolute'
         },
         profileName: 'Earvin Jay G. Bermudo',
