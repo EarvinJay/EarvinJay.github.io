@@ -35,25 +35,32 @@ var app = new Vue({
             position: 'absolute'
         },
         profileName: 'Earvin Jay G. Bermudo',
+        project3Name: 'ECR-MSA',
+        project2Name: 'neurobeat',
+        project1Name: 'Avatar',
     },
     methods: {
         onClickAboutMe: function (event) {
             this.$refs.divAboutMe.style.display = 'block';
             this.$refs.divProjects.style.display = 'none';
+            this.$refs.divSkills.style.display = 'none';
         },
         onClickProjects: function (event) {
             this.$refs.divAboutMe.style.display = 'none';
             this.$refs.divProjects.style.display = 'block';
+            this.$refs.divSkills.style.display = 'none';
         },
         onClickSkillSet: function (event) {
             this.$refs.divAboutMe.style.display = 'none';
             this.$refs.divProjects.style.display = 'none';
+            this.$refs.divSkills.style.display = 'block';
         }
     },
     created: function () {
-       console.log('created');
+        console.log('created');
     },
     mounted: function () {
         this.$refs.divProjects.style.display = 'none';
+        this.$refs.divSkills.style.display = 'none';
     }
 });

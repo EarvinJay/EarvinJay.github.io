@@ -11,10 +11,25 @@ h2, h1{
     font-family: Arial, Helvetica, sans-serif
 }
 
+h3{ 
+    position: absolute;
+    margin: 3vw auto 10 auto;
+    left: 0;
+    right: 0;
+    line-height: 1.6;
+    font-size: 2vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
 p{
     line-height: 1.6;
     font-size: 2vw;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+span
+{
+    font-size: 5vw;
 }
 
 #app{

@@ -22,6 +22,9 @@
             <vheader id="vSkills" @click.native="onClickSkillSet" title="Skill Set" v-bind:style="styleHeader"></vheader>
         </div>
 
+
+        <!-- About Me Tab -->
+
         <div ref="divAboutMe">
             <div id='vcontent' align='center'>
                 <vcontent v-bind:style="styleContent"></vcontent>
@@ -29,22 +32,42 @@
             </div>
         </div>
 
+        <!---->
+
+
+        <!-- Projects Tab -->
+
         <div ref="divProjects">
             <div id='vcontent' align='center'>
                 <div id='project1'>
+                    <h3><i><u> {{project1Name}} </u></i></h3>
                     <img src='./images/projects1.png' id='projectsImg' />
                 </div>
 
                 <div id='project2'>
+                    <h3><i><u> {{project2Name}} </u></i></h3>
                     <img src='./images/projects2.png' id='projectsImg' />
                 </div>
 
                 <div id='project3'>
+                    <h3><i><u> {{project3Name}} </u></i></h3>
                     <img src='./images/projects1.png' id='projectsImg' />
                 </div>
             </div>
 
         </div>
+
+        <!---->
+
+        <!-- Projects Tab -->
+
+        <div ref="divSkills">
+            <div id='vcontent' align='center'>
+                <span>UNDER DEVELOPMENT</span>
+            </div>
+        </div>
+
+        <!---->
 
     </div>
     <script src="./js/index.js"></script>
